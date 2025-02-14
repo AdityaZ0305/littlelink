@@ -62,15 +62,25 @@
 
 /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  body {
-	margin:0;
-	padding:0;
-	background-color:#ffffff;
-	color:#1a1a1a;
-	font-family:"Open Sans",system-ui;
-	font-size:1.125rem;     				/* 18px */
-    font-weight:400;
-	line-height:1.6;
+	body {
+    background-image: url('/images/fh_maron.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", system-ui;
+    font-size: 1.125rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.6;
+    color: #fff;
+}
+/* 1a1a1a */
+/* Responsive adjustments */
+@media (max-width: 34.375rem) { /* 550px */
+    body {
+        font-size: 1rem; /* 16px */
+    }
 }
 
 /* Typography
@@ -221,8 +231,8 @@ a:hover {
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
-	width: 8rem;             /* 128px */
-	height: 8rem;
+	width: 9rem;             /* 128px */
+	height: 9rem;
 	object-fit: cover;
 	background-position: center;
 	margin-bottom: var(--spacing-l);
@@ -265,6 +275,8 @@ a:hover {
 :root.theme-dark a:not(.button):hover {
 	color:#7AB8FF;
 }
+
+
 
 /* Auto theme */
 :root.theme-auto {
