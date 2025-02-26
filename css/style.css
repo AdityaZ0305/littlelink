@@ -67,13 +67,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     font-family: "Open Sans", system-ui;
     font-size: 1.125rem; /* 18px */
     font-weight: 400;
     line-height: 1.6;
-    color: #fff;
+    color: #ffffff;
 }
 /* 1a1a1a */
 /* Responsive adjustments */
@@ -232,7 +233,7 @@ a:hover {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
 	width: 9rem;             /* 128px */
-	height: 9rem;
+	height: auto;
 	object-fit: cover;
 	background-position: center;
 	margin-bottom: var(--spacing-l);
