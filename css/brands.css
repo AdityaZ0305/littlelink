@@ -38,6 +38,13 @@
 	--button-border:1px solid #ffffff;
 }
 
+
+/* Bem FH*/
+.button-BEM {
+	--button-text:#ffffff;
+	background-image:linear-gradient(to bottom,#ffb700,#ff0000);
+}
+
 /* Amazon */
 .button-amazon {
 	--button-text:#000000;
